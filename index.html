@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal</title>
+  <style>
+    * {
+      margin: 0; padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #0e0e0e;
+      color: #fff;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+    header h1 {
+      color: #00ffd1;
+    }
+    nav a {
+      margin-left: 20px;
+      color: #ccc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00ffd1;
+    }
+
+    section {
+      padding: 80px 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .hero h2 {
+      font-size: 48px;
+      color: #00ffd1;
+    }
+    .hero p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 4px solid #00ffd1;
+      border-radius: 6px;
+    }
+
+    .contact a {
+      color: #00ffd1;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+      color: #666;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 32px;
+      }
+      nav a {
+        margin-left: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome!</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Muhammad Firas Javier</h2>
+    <p>Aspiring Developer | Designer | Dreamer</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hallo! Gua suka main game, komputer dan lain lain, hobi gua hiking gua sekolah di SMK ANGKASA 1 JAKARTA</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+      <h3>🌟 Personal Website</h3>
+      <p>Ini website buat seneng2 aja sama perkenalan diri wkkwkw</p>
+    </div>
+
+    <div class="card">
+      <h3>🎮 Mini Game</h3>
+      <p>nanti kita bikin game!</p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card contact">
+      <p>📧 Email: <a href="mailto:youremail.com">firasripat8@gmail.com</a></p>
+      <p>🌐 Whatsapp: <a href="#">089629284200</a></p>
+      <p>🐦 Twitter: <a href="#">ada tapi males isi</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Muhammad Firas Javier. All rights reserved.
+  </footer>
+
+</body>
+</html>
